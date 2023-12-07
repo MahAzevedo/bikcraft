@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+}
+
+h1 {
+  font-size: 64px;
+  align-items: center;
+}
