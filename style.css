@@ -8,9 +8,54 @@ body {
 }
 
 .logo {
+  max-width: 100%;
+  padding: 40px 60px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+}
+
+.img-bike {
+  max-width: 50%;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+  border-radius: 4px;
+  border: #ffffff solid 2px;
+  border-width: 5px 21px;
+  background-color: #ffffff;
+  margin-bottom: 34px;
+  /* margin-top: 0px;  */
 }
 
 h1 {
-  font-size: 64px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+.grid-grupo1 {
+}
+
+.grupo2-titulo {
+  color: #c6c6c6;
+}
+
+.rodape {
+  background-color: #f7f7f7;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
 }
