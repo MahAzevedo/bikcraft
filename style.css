@@ -17,7 +17,7 @@ body {
 }
 
 .img-bike {
-  max-width: 50%;
+  max-width: 106.5%;
 }
 
 .nav {
@@ -49,6 +49,10 @@ h1 {
   grid-template-columns: 1fr 1fr;
 }
 .grid-grupo1 {
+  border: 1px solid white;
+  padding: 20px;
+  background: white;
+  height: 255px;
 }
 
 .traco-vermelho {
