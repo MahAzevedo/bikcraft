@@ -9,15 +9,11 @@ body {
 
 .logo {
   max-width: 100%;
-  padding: 40px 60px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; */
+  padding: 4rem 0rem 4rem 76rem;
 }
 
 .img-bike {
-  max-width: 106.5%;
+  max-width: 37%;
 }
 
 .nav {
@@ -34,14 +30,14 @@ body {
   border: #ffffff solid 2px;
   border-width: 5px 21px;
   background-color: #ffffff;
-  margin-bottom: 34px;
-  /* margin-top: 0px;  */
+  margin-bottom: 54px; /* 37px */
 }
 
 h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 34px;
 }
 
 .grid {
@@ -53,6 +49,9 @@ h1 {
   padding: 20px;
   background: white;
   height: 255px;
+  width: 391px;
+  margin-left: 53rem;
+  padding-bottom: 36px;
 }
 
 .traco-vermelho {
@@ -60,8 +59,59 @@ h1 {
   border-width: 5px;
 }
 
+.grupo1-titulo {
+  padding-top: 36px;
+}
+
+.grupo1-paragrafo {
+  text-align: end;
+  padding-top: 23px;
+}
+
+.link-comprar-grupo1 {
+  background: red;
+  color: white;
+  text-decoration: none;
+  padding: 20px 40px;
+  border-radius: 4px;
+  justify-items: end;
+  margin-top: 28px;
+  display: inline-block;
+  margin-left: 233px;
+}
 .grupo2-titulo {
   color: #c6c6c6;
+  margin-left: 34rem;
+  margin-top: 8rem;
+  font-size: 64px;
+  text-align: end;
+  margin-right: 10px;
+}
+
+.grupo2 {
+  background: white;
+  width: 29.6rem;
+  height: 24rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo2-item {
+  display: flow;
+  margin-left: 6rem;
+  margin-top: -3.5rem;
+  font-size: 20px;
+}
+
+.img-icone-grupo2 {
+  margin: 41px 0px 27px 38px;
+  max-width: 6%;
+}
+
+.h1-icone-grupo2 {
+}
+
+.p-icone-grupo2 {
 }
 
 .rodape {
