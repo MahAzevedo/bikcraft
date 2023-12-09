@@ -3,21 +3,23 @@
 }
 
 body {
-  background-color: gray;
+  margin: 0px;
+  background: #f7f7f7;
   font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
 }
 
 .logo {
   max-width: 100%;
-  padding: 4rem 0rem 4rem 76rem;
-}
-
-.img-bike {
-  max-width: 37%;
+  display: block;
+  padding-top: 60px;
 }
 
 .nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
@@ -25,12 +27,14 @@ body {
 .nav-links {
   text-decoration: none;
   color: #000000;
-  padding: 10px;
+  background: #ffffff;
+  padding: 15px 30px;
   border-radius: 4px;
-  border: #ffffff solid 2px;
-  border-width: 5px 21px;
-  background-color: #ffffff;
-  margin-bottom: 54px; /* 37px */
+  text-transform: uppercase;
+}
+
+.img-bike {
+  max-width: 37%;
 }
 
 h1 {
@@ -48,6 +52,7 @@ h1 {
   border: 1px solid white;
   padding: 20px;
   background: white;
+
   height: 255px;
   width: 391px;
   margin-left: 53rem;
@@ -66,6 +71,7 @@ h1 {
 .grupo1-paragrafo {
   text-align: end;
   padding-top: 23px;
+  line-height: 1.6;
 }
 
 .link-comprar-grupo1 {
@@ -115,7 +121,7 @@ h1 {
 }
 
 .rodape {
-  background-color: #f7f7f7;
+  background-color: white;
   height: 90px;
   display: flex;
   justify-content: center;
