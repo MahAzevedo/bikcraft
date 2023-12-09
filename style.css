@@ -34,7 +34,7 @@ body {
 }
 
 .img-bike {
-  max-width: 37%;
+  max-width: 100%;
 }
 
 h1 {
@@ -44,24 +44,33 @@ h1 {
   margin-left: 34px;
 }
 
-.grid {
+.grid-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
 }
-.grid-grupo1 {
-  border: 1px solid white;
-  padding: 20px;
-  background: white;
 
-  height: 255px;
-  width: 391px;
-  margin-left: 53rem;
-  padding-bottom: 36px;
+.grid-conteudo1 {
+  background: #ffffff;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+
+  display: grid;
+  align-content: center;
+  gap: 20px;
+  justify-items: end;
+
+  width: 403px;
 }
 
 .traco-vermelho {
-  border-top: solid red;
+  width: 60px;
+  height: 4px;
   border-width: 5px;
+  background: #ee2211;
+  position: absolute;
+  right: -30px;
 }
 
 .grupo1-titulo {
@@ -69,21 +78,23 @@ h1 {
 }
 
 .grupo1-paragrafo {
-  text-align: end;
+  /* text-align: end; */
   padding-top: 23px;
   line-height: 1.6;
 }
 
-.link-comprar-grupo1 {
-  background: red;
-  color: white;
+.botao {
+  background: #ee2211;
+  color: #ffffff;
   text-decoration: none;
-  padding: 20px 40px;
+  padding: 15px 30px;
   border-radius: 4px;
-  justify-items: end;
+  text-transform: uppercase;
+
+  /* justify-items: end;
   margin-top: 28px;
   display: inline-block;
-  margin-left: 233px;
+  margin-left: 233px; */
 }
 .grupo2-titulo {
   color: #c6c6c6;
@@ -121,10 +132,12 @@ h1 {
 }
 
 .rodape {
-  background-color: white;
-  height: 90px;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 40px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   font-size: 22px;
+  box-sizing: border-box;
 }
