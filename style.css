@@ -35,14 +35,15 @@ body {
 
 .img-bike {
   max-width: 100%;
+  display: block;
 }
 
-h1 {
+/* h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 34px;
-}
+} */
 
 .grid-conteudo {
   display: grid;
@@ -61,16 +62,17 @@ h1 {
   gap: 20px;
   justify-items: end;
 
-  width: 403px;
+  /* width: 403px; */
 }
 
-.traco-vermelho {
+.detalhe-vermelho {
   width: 60px;
   height: 4px;
-  border-width: 5px;
   background: #ee2211;
   position: absolute;
   right: -30px;
+
+  margin-top: 30px;
 }
 
 .grupo1-titulo {
@@ -79,6 +81,7 @@ h1 {
 
 .grupo1-paragrafo {
   /* text-align: end; */
+  font-size: 20px;
   padding-top: 23px;
   line-height: 1.6;
 }
@@ -90,27 +93,18 @@ h1 {
   padding: 15px 30px;
   border-radius: 4px;
   text-transform: uppercase;
-
-  /* justify-items: end;
-  margin-top: 28px;
-  display: inline-block;
-  margin-left: 233px; */
 }
 .grupo2-titulo {
-  color: #c6c6c6;
-  margin-left: 34rem;
-  margin-top: 8rem;
+  color: rgba(0, 0, 0, 0.2);
   font-size: 64px;
   text-align: end;
-  margin-right: 10px;
+  padding: 131px 36px;
 }
 
 .grupo2 {
   background: white;
-  width: 29.6rem;
-  height: 24rem;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .grupo2-item {
@@ -121,8 +115,8 @@ h1 {
 }
 
 .img-icone-grupo2 {
-  margin: 41px 0px 27px 38px;
-  max-width: 6%;
+  margin: 48px 0px 27px 38px;
+  max-width: 5%;
 }
 
 .h1-icone-grupo2 {
