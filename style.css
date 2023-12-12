@@ -128,3 +128,10 @@ h1 {
   font-size: 22px;
   box-sizing: border-box;
 }
+
+.conteudo3-grid {
+  display: grid;
+}
+
+.img-icone-grid2 {
+}
