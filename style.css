@@ -131,7 +131,12 @@ h1 {
 
 .conteudo3-grid {
   display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 40px 20px;
+  padding: 40px;
 }
 
-.img-icone-grid2 {
+.conteudo3-grid-p {
+  grid-column: 2;
+  padding: 20px;
 }
