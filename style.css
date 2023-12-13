@@ -39,9 +39,6 @@ body {
   display: block;
 }
 
-h1 {
-}
-
 .grid-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -97,17 +94,18 @@ h1 {
 
 .conteudo2 {
   background: #ffffff;
+  padding: 40px;
 }
 
 .conteudo2-item {
-  display: flow;
-  margin-left: 6rem;
-  margin-top: -3.5rem;
+  /* display: flow; */
+  /* margin-left: 6rem; */
+  /* margin-top: -3.5rem; */
   font-size: 20px;
 }
 
 .img-icone-grupo2 {
-  margin: 48px 0px 27px 38px;
+  /* margin: 48px 0px 27px 38px; */
   max-width: 5%;
 }
 
@@ -133,7 +131,7 @@ h1 {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 40px 20px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .conteudo3-grid-p {
