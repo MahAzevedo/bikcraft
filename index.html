@@ -13,7 +13,7 @@
   <!-- cabeçalho e navegação -->
   <header>
     <img class="logo" src="/img/bikcraft.svg" alt="Bikcraft">
-    <nav class="nav">
+    <nav class="nav" aria-label="navagacao">
       <li><a class="nav-links" href="/">Sobre</a></li>
       <li><a class="nav-links" href="/">Produtos</a></li>
       <li><a class="nav-links" href="/">Lojas</a></li>
@@ -22,42 +22,47 @@
   </header>
 
   <!-- conteúdo principal do projeto -->
-  <div class="grid-conteudo">
-    <div class="grid-conteudo1">
+  <main class="grid-conteudo">
+    <section class="grid-conteudo1">
       <span class="detalhe-vermelho"></span>
       <h1 class="grupo1-titulo">Bicicletas Feitas à Mão</h1>
       <p class="grupo1-paragrafo">
         A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.
       </p>
       <a class="botao" href="/">Ver mais</a>
-    </div>
+    </section>
 
-    <img class="img-bike" src="/img/bicicleta.jpg" alt="Bicicleta Preta">
+    <figure> <!-- img bike preta -->
+      <img class="img-bike" src="/img/bicicleta.jpg" alt="Bicicleta Preta">
+    </figure>
 
-    <h2 class="conteudo2-titulo">Vantagens Bikcraft</h2>
+    <!-- início da segunda parte do conteúdo principal do projeto -->
 
-    <div class="conteudo2">
-      <div class="conteudo2-item">
+    <section class="conteudo2"> <!-- Vantagens Bikcraft -->
+      <h2 class="conteudo2-titulo">Vantagens Bikcraft</h2>
+    </section>
+
+    <section class="conteudo3">
+      <div class="conteudo3-item">
         <img class="img-icone-grupo2" src="/img/eletrica.svg" alt="">
-        <h3 class="h1-icone-grupo2">Motor Elétrico</h3>
-        <p class="p-icone-grupo2">Permite você viajar distâncias inimagináveis com a sua bike.</p>
+        <h3 class="h1-icone-grupo3">Motor Elétrico</h3>
+        <p class="p-icone-grupo3">Permite você viajar distâncias inimagináveis com a sua bike.</p>
       </div>
 
-      <div class="conteudo2-item">
+      <div class="conteudo3-item">
         <img class="img-icone-grupo2" src="/img/velocidade.svg" alt="">
         <h3>40 Km/h</h3>
         <p>A mais rápida bicicleta disponível hoje no mercado.</p>
       </div>
 
-      <div class="conteudo2-item">
-        <img class="img-icone-grupo2" src="/img/rastreador.svg" alt="">
+      <div class="conteudo3-item">
+        <img class="img-icone-grupo3" src="/img/rastreador.svg" alt="">
         <h3>Rastreador</h3>
         <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
       </div>
 
-    </div>
-
-  </div>
+    </section>
+  </main>
 
 
   <!-- rodape dp projeto  -->

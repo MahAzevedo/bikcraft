@@ -103,6 +103,11 @@ body {
 }
 
 /* conteúdo da segunda parte do projeto */
+.conteudo2 {
+  display: flex;
+  align-items: center;
+}
+
 .conteudo2-titulo {
   color: rgba(0, 0, 0, 0.2);
   font-size: 64px;
@@ -110,14 +115,16 @@ body {
   padding: 36px;
   text-transform: uppercase;
   align-self: center;
+  background-image: url("/img/onda.svg");
+  background-position: center;
 }
 
-.conteudo2 {
+.conteudo3 {
   background: #ffffff;
   padding: 40px;
 }
 
-.conteudo2-item {
+.conteudo3-item {
   font-size: 20px;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -125,11 +132,11 @@ body {
   padding: 20px;
 }
 
-.conteudo2-item p {
+.conteudo3-item p {
   grid-column: 2;
 }
 
-.p-icone-grupo2 {
+.p-icone-grupo3 {
   font-size: 20px;
   line-height: 1.6;
 }
