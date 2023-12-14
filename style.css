@@ -1,37 +1,64 @@
 * {
-  margin: 0px;
-  cursor: pointer;
+  margin: 0rem;
+  /* cursor: pointer; */
+}
+
+header {
+  text-align: center;
+  display: inline-block;
+  list-style: none;
 }
 
 body {
-  margin: 0px;
+  /* margin: 0px; */
   background: #f7f7f7;
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
-  gap: 60px;
+  gap: 3.75rem;
   justify-items: center;
 }
 
 .logo {
   max-width: 100%;
-  display: block;
-  padding-top: 60px;
+  display: inline-block;
+  padding: 3.75rem;
 }
 
 .nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .nav-links {
   text-decoration: none;
   color: #000000;
   background: #ffffff;
-  padding: 15px 30px;
-  border-radius: 4px;
+  padding: 1.1rem 2.2rem;
+  border-radius: 0.25rem;
   text-transform: uppercase;
+  border: 0.2rem solid #ffffff;
+  font-size: 1.28rem;
+  display: block;
+  transition: 0.03s;
+}
+
+.nav-links:hover {
+  border: 0.2rem solid #ee2211;
+}
+
+/* início do conteúdo principal do projeto*/
+
+.detalhe-vermelho::before {
+  content: " ";
+  background-color: #ee2211;
+  height: 0.4rem;
+  width: 5rem;
+  margin-right: -4rem;
+  display: block;
+  position: absolute;
+  margin-top: -2rem;
 }
 
 .img-bike {
@@ -42,12 +69,12 @@ body {
 .grid-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
+  max-width: 62.5rem;
 }
 
 .grid-conteudo1 {
   background: #ffffff;
-  padding: 40px;
+  padding: 2.5rem;
   text-align: right;
   position: relative;
   display: grid;
@@ -56,33 +83,26 @@ body {
   justify-items: end;
 }
 
-.detalhe-vermelho {
-  width: 60px;
-  height: 4px;
-  background: #ee2211;
-  position: absolute;
-  right: -30px;
-  margin-top: 30px;
-}
-
 .grupo1-titulo {
-  padding-top: 36px;
+  font-size: 2rem;
 }
 
 .grupo1-paragrafo {
-  font-size: 20px;
-  line-height: 1.6;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  padding: 0.2rem;
 }
 
 .botao {
   background: #ee2211;
   color: #ffffff;
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 1rem 2rem;
   border-radius: 4px;
   text-transform: uppercase;
 }
 
+/* conteúdo da segunda parte do projeto */
 .conteudo2-titulo {
   color: rgba(0, 0, 0, 0.2);
   font-size: 64px;
