@@ -121,15 +121,17 @@ body {
 
 .conteudo3 {
   background: #ffffff;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .conteudo3-item {
   font-size: 20px;
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 10px 20px;
-  padding: 20px;
+  /* gap: 10px 20px; */
+  /* gap: 20px 26px; */
+  gap: 0.75rem 1.25rem;
+  padding: 1.25rem;
 }
 
 .conteudo3-span {
@@ -149,11 +151,16 @@ body {
 
 .conteudo3-item p {
   grid-column: 2;
+  line-height: 1.3;
 }
 
 .p-icone-grupo3 {
   font-size: 20px;
   line-height: 1.6;
+}
+
+.h1-icone-grupo3 {
+  /* padding: 10px; */
 }
 
 .rodape {
