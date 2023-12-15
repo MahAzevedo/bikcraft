@@ -132,6 +132,21 @@ body {
   padding: 20px;
 }
 
+.conteudo3-span {
+  width: 0.5rem;
+  height: 9rem;
+  display: block;
+  position: absolute;
+}
+
+.conteudo3-item:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.conteudo3-item:hover {
+  border-left: #ee2211 solid;
+}
+
 .conteudo3-item p {
   grid-column: 2;
 }
