@@ -101,6 +101,7 @@ body {
 .botao:hover {
   background: #900;
 }
+
 .conteudo-2 {
   display: flex;
   align-items: center;
@@ -137,7 +138,6 @@ body {
 
 .conteudo-3-item:hover {
   border-left: 0.3rem solid #ee2211;
-  /* #900 */
 }
 
 .conteudo-3-p {
