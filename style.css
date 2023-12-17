@@ -46,7 +46,18 @@ body {
   border: 0.2rem solid #ee2211;
 }
 
-.detalhe-vermelho::before {
+.conteudo-1::before {
+  content: " ";
+  background-color: #ee2211;
+  height: 0.4rem;
+  width: 5rem;
+  margin-right: -2.5rem;
+  display: block;
+  position: absolute;
+  margin-top: 2rem;
+}
+
+/* .detalhe-vermelho::before {
   content: " ";
   background-color: #ee2211;
   height: 0.4rem;
@@ -55,7 +66,7 @@ body {
   display: block;
   position: absolute;
   margin-top: -2rem;
-}
+} */
 
 .img-bike {
   max-width: 100%;
