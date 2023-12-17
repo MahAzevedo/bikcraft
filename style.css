@@ -57,17 +57,6 @@ body {
   margin-top: 2rem;
 }
 
-/* .detalhe-vermelho::before {
-  content: " ";
-  background-color: #ee2211;
-  height: 0.4rem;
-  width: 5rem;
-  margin-right: -4rem;
-  display: block;
-  position: absolute;
-  margin-top: -2rem;
-} */
-
 .img-bike {
   max-width: 100%;
   display: block;
@@ -143,7 +132,7 @@ body {
   border-left: 0.3rem solid transparent;
 }
 
-.conteudo-3-item:nth-child(even) {
+.conteudo-3-item:nth-child(odd) {
   background-color: #f7f7f7;
 }
 
