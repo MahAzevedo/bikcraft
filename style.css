@@ -154,3 +154,7 @@ body {
   box-sizing: border-box;
   text-align: center;
 }
+
+/* 374.4px = 23.4rem */
+@media (max-width: 23.4rem) {
+}
