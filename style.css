@@ -173,6 +173,9 @@ body {
     width: auto 20px;
     align-items: center;
   }
+  .img-bike {
+    height: 100%;
+  }
 }
 
 /* ------ 768px -------*/
@@ -180,6 +183,9 @@ body {
 @media (max-width: 768px) {
   .header {
     background-color: gray;
+  }
+  .img-bike {
+    height: 100%;
   }
 }
 
@@ -216,9 +222,10 @@ body {
   .img-bike {
     max-width: 100%;
     display: block;
-    background-size: 100%;
+    /* background-size: 100%; */
     object-fit: cover;
     object-position: bottom;
+    height: 100%;
   }
   /* usar cover para img */
 }
