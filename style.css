@@ -154,7 +154,70 @@ body {
   box-sizing: border-box;
   text-align: center;
 }
+/* @media (max-width: 1440px) {} */
+@media (max-width: 1008px) {
+  .header {
+    background-color: tomato;
+    width: auto 20px;
+    align-items: center;
+  }
+  .logo {
+    align-items: center;
+    width: auto 20px;
+    align-items: center;
+  }
+  .nav-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1;
+    width: auto 20px;
+    align-items: center;
+  }
+}
 
-/* 374.4px = 23.4rem */
-@media (max-width: 23.4rem) {
+/* ------ 768px -------*/
+
+@media (max-width: 768px) {
+  .header {
+    background-color: gray;
+  }
+}
+
+/* ------ 360px -------*/
+@media (max-width: 360px) {
+  .header {
+    background-color: pink;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+
+  .nav-links {
+    text-decoration: none;
+    color: #000000;
+    background: #ffffff;
+    padding: 1.1rem 2.2rem;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    border: 0.2rem solid #ffffff;
+    font-size: 1.28rem;
+    display: block;
+    transition: 0.03s;
+  }
+
+  .nav-links:hover {
+    border: 0.2rem solid #ee2211;
+  }
+
+  .img-bike {
+    max-width: 100%;
+    display: block;
+    background-size: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
 }
