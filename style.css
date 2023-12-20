@@ -175,6 +175,8 @@ body {
   }
   .img-bike {
     height: 100%;
+    width: 100%;
+    display: block;
   }
 }
 
@@ -186,6 +188,8 @@ body {
   }
   .img-bike {
     height: 100%;
+    width: 100%;
+    display: block;
   }
 }
 
@@ -222,10 +226,15 @@ body {
   .img-bike {
     max-width: 100%;
     display: block;
-    /* background-size: 100%; */
     object-fit: cover;
     object-position: bottom;
     height: 100%;
+    width: 100%;
   }
-  /* usar cover para img */
+
+  .conteudo-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2;
+  }
 }
