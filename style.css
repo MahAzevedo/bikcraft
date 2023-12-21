@@ -225,7 +225,9 @@ body {
 
   .img-bike {
     max-width: 100%;
-    display: block;
+    /* display: block; */
+    display: flex;
+    flex-wrap: wrap;
     object-fit: cover;
     object-position: bottom;
     height: 100%;
