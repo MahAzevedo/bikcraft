@@ -229,6 +229,7 @@ body {
     flex-wrap: wrap;
     object-fit: cover;
     object-position: bottom;
+    align-self: center;
     height: 100%;
     width: 100%;
   }
@@ -237,5 +238,31 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 2;
+  }
+
+  .conteudo-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .conteudo-2-h2 {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 64px;
+    text-align: center;
+    padding: 36px;
+    text-transform: uppercase;
+    align-self: center;
+    background-image: url("/img/onda.svg");
+    background-position: center;
+
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    object-fit: cover;
+    object-position: bottom;
+    align-self: center;
+    height: 100%;
+    width: 100%;
   }
 }
