@@ -154,6 +154,7 @@ body {
   box-sizing: border-box;
   text-align: center;
 }
+
 /* @media (max-width: 1440px) {} */
 @media (max-width: 1008px) {
   .header {
@@ -267,4 +268,3 @@ body {
     height: 100%;
     width: 100%;
   }
-}
