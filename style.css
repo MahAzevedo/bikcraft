@@ -197,7 +197,6 @@ body {
 @media (max-width: 360px) {
   .header {
     background-color: pink;
-    visibility: hidden;
   }
 
   .nav {
@@ -205,6 +204,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.25rem;
+    visibility: hidden;
+    }
   }
 
   .nav-links {
