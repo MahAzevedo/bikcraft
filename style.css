@@ -162,11 +162,13 @@ body {
     width: auto 20px;
     align-items: center;
   }
+
   .logo {
     align-items: center;
     width: auto 20px;
     align-items: center;
   }
+
   .nav-links {
     display: grid;
     grid-template-columns: 1fr;
@@ -174,6 +176,7 @@ body {
     width: auto 20px;
     align-items: center;
   }
+
   .img-bike {
     height: 100%;
     width: 100%;
@@ -187,6 +190,7 @@ body {
   .header {
     background-color: gray;
   }
+
   .img-bike {
     height: 100%;
     width: 100%;
@@ -206,7 +210,6 @@ body {
     justify-content: center;
     gap: 1.25rem;
     visibility: hidden;
-    }
   }
 
   .nav-links {
@@ -241,12 +244,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 2;
+    width: 100%;
   }
 
   .conteudo-2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    max-width: 100%;
   }
 
   .conteudo-2-h2 {
@@ -268,3 +273,29 @@ body {
     height: 100%;
     width: 100%;
   }
+
+  .conteudo-3 {
+    width: 100%;
+  }
+
+
+
+  .conteudo-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/-1;
+  }
+
+  .conteudo-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/-1;
+  }
+
+  .img-bike {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/-1;
+    max-width: 100%;
+  }
+}
