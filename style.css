@@ -197,6 +197,7 @@ body {
 @media (max-width: 360px) {
   .header {
     background-color: pink;
+    display: hide;
   }
 
   .nav {
