@@ -187,9 +187,7 @@ body {
 /* ------ 768px -------*/
 
 @media (max-width: 768px) {
-  .header {
-    /* background-color: gray; */
-  }
+  .header {}
 
   .img-bike {
     height: 100%;
