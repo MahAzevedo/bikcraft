@@ -209,8 +209,6 @@ body {
     max-height: 87px;
   }
 
-  .logo {}
-
   .nav {
     display: flex;
     flex-wrap: wrap;
@@ -242,12 +240,11 @@ body {
     max-width: 100%;
   }
 
-  .img-bike {}
-
   .conteudo-1 {
     display: grid;
     grid-template-columns: 1fr;
     grid-column: 1/-1;
+    padding-top: 52px;
   }
 
   .conteudo-1::before {
@@ -258,6 +255,11 @@ body {
     margin-right: 13.5rem;
     display: block;
     position: absolute;
+    margin-top: 2rem;
+  }
+
+  .conteudo-1-h1 {
+    font-size: 2rem;
     margin-top: 1rem;
   }
 
