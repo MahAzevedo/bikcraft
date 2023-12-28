@@ -158,7 +158,6 @@ body {
 /* @media (max-width: 1440px) {} */
 @media (max-width: 1008px) {
   .header {
-    /* background-color: tomato; */
     width: auto 20px;
     align-items: center;
   }
@@ -187,12 +186,83 @@ body {
 /* ------ 768px -------*/
 
 @media (max-width: 768px) {
-  .header {}
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    width: 768px;
+  }
+
+  .header {
+    max-height: 87px;
+  }
 
   .img-bike {
     height: 100%;
-    width: 100%;
+    width: 768px;
     display: block;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+    visibility: hidden;
+    /* visibility: visible; */
+  }
+
+  .nav-links {
+    text-decoration: none;
+    color: #000000;
+    background: #ffffff;
+    padding: 1.1rem 2.2rem;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    border: 0.2rem solid #ffffff;
+    font-size: 1.28rem;
+    display: block;
+    transition: 0.03s;
+  }
+
+  .nav-links:hover {
+    border: 0.2rem solid #ee2211;
+  }
+
+  .conteudo-principal {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  .conteudo-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/-1;
+    padding-top: 52px;
+    text-align: left;
+  }
+
+  .conteudo-1::before {
+    content: " ";
+    background-color: #ee2211;
+    height: 0.4rem;
+    width: 5rem;
+    margin: 384px;
+    display: block;
+    position: absolute;
+    margin-top: 2rem;
+  }
+
+  .conteudo-1-h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding-right: 337px;
+  }
+
+  .conteudo-2-h2 {
+    text-align: center;
+    padding: 109px 25px;
   }
 }
 
@@ -201,6 +271,7 @@ body {
   body {
     margin: 0px;
     padding: 0px;
+    width: 360px;
   }
 
   .header {
