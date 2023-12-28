@@ -158,7 +158,7 @@ body {
 /* @media (max-width: 1440px) {} */
 @media (max-width: 1008px) {
   .header {
-    background-color: tomato;
+    /* background-color: tomato; */
     width: auto 20px;
     align-items: center;
   }
@@ -188,7 +188,7 @@ body {
 
 @media (max-width: 768px) {
   .header {
-    background-color: gray;
+    /* background-color: gray; */
   }
 
   .img-bike {
@@ -201,7 +201,23 @@ body {
 /* ------ 360px -------*/
 @media (max-width: 360px) {
   .header {
-    background-color: pink;
+    /* background-color: pink; */
+    /* max-width: 100%; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* text-align: center; */
+    max-height: 87px;
+  }
+
+  .logo {
+    /* max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; */
+    text-align: center;
+    padding: 28px 0px 0px 22px;
   }
 
   .nav {
@@ -245,6 +261,8 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-column: 2;
     width: 100%;
+    /* max-width: 100%; */
+    /* max-width: 360px; */
   }
 
   .conteudo-2 {
