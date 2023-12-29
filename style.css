@@ -236,9 +236,9 @@ body {
   }
 
   .conteudo-1 {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr;
-    grid-column: 1/-1;
+    grid-column: 1/-1; */
     padding-top: 52px;
     text-align: left;
   }
@@ -257,7 +257,9 @@ body {
   .conteudo-1-h1 {
     font-size: 2rem;
     margin-top: 1rem;
-    padding-right: 337px;
+    /* padding-right: 337px; */
+    padding-left: 337px;
+
   }
 
   .conteudo-2-h2 {
