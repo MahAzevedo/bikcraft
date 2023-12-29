@@ -194,7 +194,8 @@ body {
   }
 
   .header {
-    max-height: 87px;
+    /* max-height: 87px; */
+    max-height: 32px;
   }
 
   .logo {
