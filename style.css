@@ -318,7 +318,8 @@ body {
   }
 
   .conteudo-1::before {
-    margin-right: 13.5rem;
+    margin-right: 17.5rem;
+    width: 94px;
   }
 
   .conteudo-1-h1 {
