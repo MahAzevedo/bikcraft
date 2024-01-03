@@ -271,7 +271,7 @@ body {
   }
 
   .header {
-    max-height: 32px;
+    max-height: 34px;
   }
 
   .logo {
@@ -335,7 +335,7 @@ body {
 
   .botao-container {
     padding-right: 22rem;
-    padding-top: 18px;
+    padding-top: 20px;
   }
 
 }
