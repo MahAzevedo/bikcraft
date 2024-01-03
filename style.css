@@ -333,4 +333,9 @@ body {
     padding: 109px 25px;
   }
 
+  .botao-container {
+    padding-right: 22rem;
+    padding-top: 18px;
+  }
+
 }
