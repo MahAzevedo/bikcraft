@@ -255,6 +255,7 @@ body {
 
   .conteudo-1-h1 {
     margin-top: 1rem;
+    padding-right: 26.5rem;
   }
 
   .conteudo-2-h2 {
@@ -263,7 +264,7 @@ body {
   }
 
   .botao-container {
-    padding-right: 22rem;
+    padding-right: 34rem;
     padding-top: 20px;
   }
 }
