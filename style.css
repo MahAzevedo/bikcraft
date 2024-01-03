@@ -80,7 +80,8 @@ body {
 }
 
 .conteudo-1-h1 {
-  font-size: 2rem;
+  margin-top: 1rem;
+  padding-right: 11rem;
 }
 
 .conteudo-1-p {
@@ -260,6 +261,11 @@ body {
     text-align: center;
     padding: 109px 25px;
   }
+
+  .botao-container {
+    padding-right: 22rem;
+    padding-top: 20px;
+  }
 }
 
 /* ------ 360px -------*/
@@ -271,7 +277,7 @@ body {
   }
 
   .header {
-    max-height: 34px;
+    max-height: 32px;
   }
 
   .logo {
