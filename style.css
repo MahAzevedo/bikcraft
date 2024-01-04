@@ -81,7 +81,6 @@ body {
 
 .conteudo-1-h1 {
   margin-top: 1rem;
-  padding-right: 11rem;
 }
 
 .conteudo-1-p {
@@ -156,7 +155,7 @@ body {
   text-align: center;
 }
 
-/* ------- 1008px ----- */
+/* ------ 1008px ----- */
 /* @media (max-width: 1440px) {} */
 @media (max-width: 1008px) {
   .header {
@@ -353,6 +352,17 @@ body {
     /* padding-right: 22rem; */
     padding-top: 20px;
     padding-right: 11.5rem;
+  }
+
+  .img-bike-cover {
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .img-bike {
+    height: 100%;
+    width: 360px;
+    display: block;
   }
 
 }
