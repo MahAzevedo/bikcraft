@@ -156,6 +156,7 @@ body {
   text-align: center;
 }
 
+/* ------- 1008px ----- */
 /* @media (max-width: 1440px) {} */
 @media (max-width: 1008px) {
   .header {
