@@ -210,7 +210,9 @@ body {
     display: block;
   }
 
-  .nav-menu {}
+  .nav-menu {
+    visibility: visible;
+  }
 
   .nav {
     display: flex;
@@ -218,7 +220,7 @@ body {
     justify-content: center;
     gap: 1.25rem;
     /* visibility: hidden; */
-    visibility: visible;
+    /* visibility: visible; */
   }
 
   .nav-links {
@@ -232,6 +234,7 @@ body {
     font-size: 1.28rem;
     display: block;
     transition: 0.03s;
+    /* visibility: visible; */
   }
 
   .nav-links:hover {
