@@ -210,13 +210,15 @@ body {
     display: block;
   }
 
+  .nav-menu {}
+
   .nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.25rem;
-    visibility: hidden;
-    /* visibility: visible; */
+    /* visibility: hidden; */
+    visibility: visible;
   }
 
   .nav-links {
