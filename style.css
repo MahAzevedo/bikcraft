@@ -216,7 +216,7 @@ body {
 
   .nav {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     gap: 1.25rem;
     /* visibility: hidden; */
