@@ -366,3 +366,5 @@ if (('Gato' === 'gato') || (5 > 2)) {
 } else {
     console.log('Falso');
 }
+
+// teste...
