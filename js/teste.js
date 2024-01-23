@@ -414,3 +414,9 @@ console.log(corDesfavorita('preto'));
 // 
 
 addEventListener('click', function () { console.log('oi, né que tá funcionando!') });
+
+function mostraConsole() {
+    console.log('Apareceu no console? Fiz certo a função!!!');
+}
+
+console.log(addEventListener('click', mostraConsole))
