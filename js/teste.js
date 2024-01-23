@@ -367,4 +367,50 @@ if (('Gato' === 'gato') || (5 > 2)) {
     console.log('Falso');
 }
 
-// teste...
+// 
+// 
+// 
+//  Funções:
+function areaQuadrado(lado) {
+    return lado * lado;
+}
+
+console.log(areaQuadrado(4));
+
+function areaRedondo() {
+    console.log('Função ativa')
+}
+
+areaRedondo();
+
+function pi() {
+    return 3.14;
+}
+
+var total = 5 * pi();
+
+console.log(total);
+
+//  Parâmetros e Argumentos:
+
+function imc(peso, altura) {
+    var imc = peso / (altura ** 2);
+    return imc;
+}
+console.log(imc(70, 1.70));
+
+//  Parênteses executa função
+function corDesfavorita(cor) {
+    if (cor === 'rosa') {
+        return 'Rosa é bom gosto!';
+    } else if (cor === 'azul') {
+        return 'Azul também tá bom';
+    } else {
+        return 'Senão é rosa nem azul, então é verde!';
+    }
+}
+console.log(corDesfavorita('preto'));
+
+// 
+
+addEventListener('click', function () { console.log('oi, né que tá funcionando!') });
