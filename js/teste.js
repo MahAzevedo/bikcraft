@@ -1,3 +1,4 @@
+// const { func } = require("prop-types");
 
 
 var nome = "Mádjan";
@@ -419,4 +420,69 @@ function mostraConsole() {
     console.log('Apareceu no console? Fiz certo a função!!!');
 }
 
-console.log(addEventListener('click', mostraConsole))
+console.log(addEventListener('click', mostraConsole));
+
+function imc2(peso, altura) {
+    const imc2 = peso / (altura ** 2);
+    console.log(imc2);
+}
+
+//  
+//  Funções: Valores retornados 
+
+imc2(10, 1.50);
+console.log(imc2(100000, 1.50));
+
+function terceiraIdade(idade) {
+    if (typeof idade !== 'number') {
+        return 'Retorne a sua idade!';
+    } else if (idade >= 60) {
+        return true;
+    } else {
+        return false;
+    }
+}
+// Cuidado, aqui tem muitos tipos de dados na mesma função, isso não é bom: typeof; true que é boleano; false, que também é boleano, tá misturando número com string e boleano.
+console.log(terceiraIdade());
+
+
+function quartaIdade(idade) {
+    if (idade >= 60) {
+        return ('Igual ou maior que 60 anos é idoso.');
+    } else if (idade <= 59) {
+        return ('Com menos de 59 anos ainda não é idoso.')
+    } else {
+        return ('Maior que 70 anos é super idoso.')
+    }
+}
+console.log(quartaIdade(0));
+
+function quintaIdade(idade) {
+    if (idade >= 60) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(quintaIdade(0));
+
+function sextaIdade(idade) {
+    if (idade >= 60) {
+        return 'Você possui gratuidade! Por favor, preencha os campos do formulário: '
+    } else if (idade <= 59) {
+        return 'Se você é menor de 60 anos, você não possui gratuidade. Preencher sua idade no formulário: '
+    } else {
+        return 'Por favor, preencha o formulário com a sua idade: '
+    }
+}
+
+console.log(sextaIdade());
+
+//  Funções: Escopo
+
+function faltaVisitar(paisesVisitados) {
+    var totalDePaisesNoMundo = 193;
+    return `Falta visitar ${totalDePaisesNoMundo - paisesVisitados} países.`
+}
+
+console.log(faltaVisitar(2));
