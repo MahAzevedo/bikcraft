@@ -480,9 +480,41 @@ console.log(sextaIdade());
 
 //  Funções: Escopo
 
+// Essa função aqui é de bloco{}, então tudo que está escrito dentro dela não pode ser visto do lado de fora, ou seja, a var dentro bloco{} não pode ser chamada do lado de fora no console, somente pode ser chamada pelo console o nome da função o function algumaCoisa() como está abaixo.
+
 function faltaVisitar(paisesVisitados) {
     var totalDePaisesNoMundo = 193;
     return `Falta visitar ${totalDePaisesNoMundo - paisesVisitados} países.`
 }
 
 console.log(faltaVisitar(2));
+
+// outra forme de fazer essa funcao: unico jeito de chamar essa funcao fora do bloco{} é se tirar a var de dentro do bloco{} e colocar do lado fora, aí dá pra chamar a função no console, como dá pra var abaixo.
+
+var totalDePaisesNoMundoTodo = 193;
+
+function aindaFaltaVisitar(paisesJaVisitados) {
+    return `Falta visitar ${totalDePaisesNoMundoTodo - paisesJaVisitados} países.`
+}
+
+console.log(totalDePaisesNoMundoTodo);
+
+//  Funções: Escopo Léxico
+
+var profissao = 'frontend';
+
+function dados() {
+    var nome = 'Mádjan';
+    var idade = 11;
+    function outrosDados() {
+        var endereco = 'niteroi';
+        var idade = 22;
+        return `${profissao}, ${nome}, ${idade}, ${endereco}`
+    }
+    return outrosDados();
+}
+
+console.log(dados());
+// console.log(outrosDados());
+
+
