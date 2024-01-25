@@ -1,5 +1,3 @@
-// const { func } = require("prop-types");
-
 
 var nome = "Mádjan";
 console.log("Mádjan")
@@ -516,5 +514,56 @@ function dados() {
 
 console.log(dados());
 // console.log(outrosDados());
+
+
+//  Funções: Exercícos 1/7;
+// 1/7: Crie uma função para verificar se um valor é Truthy: 
+
+function isTruthy(dado) {
+    return !!dado;
+}
+
+var eTruthy = isTruthy('funcionou no console?');
+console.log(eTruthy)
+
+// 2/7:  Crie uma função matemática que retorne o perímetro de um quadrado
+// lembrando: perímetro é a soma dos quatro lados do quadrado
+
+function perimetroQuadrado(lado) {
+    return lado * 4;
+}
+
+// 3/7: Crie uma função que retorne o seu nome completo, ela deve possuir os parâmetros: nome e sobrenome.
+
+function nomeCompletoo(nomee, sobrenomee) {
+    // return nomee + ' ' + sobrenomee;
+    return `${nomee} ${sobrenomee}`;
+}
+
+
+// 4/7: Crie uma função que verifica se um número é par
+
+function verificaSeENumeroPar(numero) {
+    var modulo = numero % 2;
+    if (modulo === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// 5/7: Crie uma função que retorne o tipo de dado do argumento passado nela (typeof).
+
+function ePar(numero) {
+    var modulo = numero % 2;
+    if (typeof modulo === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+
 
 
