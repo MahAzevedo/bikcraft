@@ -555,14 +555,9 @@ function verificaSeENumeroPar(numero) {
 // 5/7: Crie uma função que retorne o tipo de dado do argumento passado nela (typeof).
 
 function ePar(numero) {
-    var modulo = numero % 2;
-    if (typeof modulo === 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return typeof '4'
 }
-
+console.log(ePar())
 
 
 
