@@ -554,11 +554,17 @@ function verificaSeENumeroPar(numero) {
 
 // 5/7: Crie uma função que retorne o tipo de dado do argumento passado nela (typeof).
 
-function ePar(numero) {
-    return typeof '4'
+function tipoDeDado(dado) {
+    return typeof dado;
 }
-console.log(ePar())
+console.log(tipoDeDado(9))
+
+// 6/7: addEventListener é uma função nativa do JavaScript
+// o primeiro parâmetro é o evento que ocorre e o segundo o Callback
+// utilize essa função para mostrar no console o seu nome completo
+// quando o evento 'scroll' ocorrer.
 
 
-
-
+addEventListener('scroll', function (nometodo) {
+    console.log('scroll');
+})
