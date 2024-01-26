@@ -565,6 +565,24 @@ console.log(tipoDeDado(9))
 // quando o evento 'scroll' ocorrer.
 
 
-addEventListener('scroll', function (nometodo) {
-    console.log('scroll');
-})
+addEventListener('scroll', function () {
+    console.log('Madi Pergola');
+});
+
+addEventListener('click', function () {
+    console.log('Madi Pergola')
+});
+
+// 7/7: Corrija o erro abaixo:
+var totalPaises = 193;
+
+function precisoVisitar(paisesVisitados) {
+
+    return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
+}
+function jaVisitei(paisesVisitados) {
+
+    return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
+}
+console.log(precisoVisitar(20));
+console.log(jaVisitei(20));
