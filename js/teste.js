@@ -577,12 +577,30 @@ addEventListener('click', function () {
 var totalPaises = 193;
 
 function precisoVisitar(paisesVisitados) {
-
     return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
 }
 function jaVisitei(paisesVisitados) {
-
     return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
 }
 console.log(precisoVisitar(20));
 console.log(jaVisitei(20));
+
+
+// Funções: Objeto;
+// Conjunto de variáveis e funções, que são chamadas de propriedades e métodos.
+// variáveis são propriedades
+// funções são métodos
+
+
+// aqui nesse caso, pessoa é um objeto, qualquer nome dessa e outra variavel será um objeto, é por isso que sempre dizem que tudo é objeto.
+var pessoa = {
+    nome: 'Madi',
+    idade: 10,
+    profissão: 'frontend',
+    possuiFaculdade: true,
+}
+console.log(pessoa.nome);
+
+// Funç~ões: Métodos;
+// É uma propriedade que possui uma função no local do seu valor.
+// Uma propriedade pode ser uma função.
