@@ -604,3 +604,20 @@ console.log(pessoa.nome);
 // Funç~ões: Métodos;
 // É uma propriedade que possui uma função no local do seu valor.
 // Uma propriedade pode ser uma função.
+
+var quadrado = {
+    lados: 4,
+    area: function (lado) {
+        return lado * lado;
+    },
+    perimetro: function (lado) {
+        return this.lados * lado;
+    },
+}
+
+console.log(quadrado.lados);
+console.log(quadrado.area(4));
+console.log(quadrado.perimetro(8));
+
+
+// this substitui a variavel dentro da função para evitar ficar se repetindo, é só colocar o ponto para acessar a variavel que o this representa e seguir a função.
