@@ -621,3 +621,28 @@ console.log(quadrado.perimetro(8));
 
 
 // this substitui a variavel dentro da função para evitar ficar se repetindo, é só colocar o ponto para acessar a variavel que o this representa e seguir a função.
+
+// Abreviação do MÉTODO:
+
+var quadrado = {
+    lados: 4,
+    area(lado) {
+        return lado * lado;
+    },
+    perimetro(lado) {
+        return this.lados * lado;
+    }
+}
+
+console.log(quadrado.lados);
+console.log(quadrado.area(4));
+console.log(quadrado.perimetro(8));
+
+
+// Funções: Objetos servem para organizar o código em pequenas partes reutilizáveis.
+
+Math.PI;
+Math.random();
+var pi = Math.PI;
+console.log(pi);
+
