@@ -647,4 +647,28 @@ var pi = Math.PI;
 console.log(pi);
 
 
+console.table(quadrado);
 
+
+// Objetos: Criar um objeto:
+// Um objeto é criado utilizando as chaves{}
+
+var carro = {};
+var pessoa = {};
+console.log(typeof pessoa);
+
+var pessoa = {
+    nome: 'Laura',
+    idade: 11,
+    copo: 'vidro'
+}
+console.log(pessoa.copo);
+
+var caderno = {
+    nome: 'Madi',
+    material: 'caderno',
+    serve: 'informação',
+    caderno: 'para armazenar informação'
+}
+caderno.nome;
+console.log(caderno.caderno);
