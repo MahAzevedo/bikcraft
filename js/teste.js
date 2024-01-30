@@ -1,4 +1,5 @@
 
+
 var nome = "Mádjan";
 console.log("Mádjan")
 
@@ -672,3 +673,37 @@ var caderno = {
 }
 caderno.nome;
 console.log(caderno.caderno);
+
+// Objetos: Métodos:
+// É uma propriedade que possui uma fun'~ao no local do seu valor. 
+
+var quadrado = {
+    lados: 4,
+    area: function (lado) {
+        return lado * lado;
+    },
+    perimetro: function (lado) {
+        return this.lados * lado;
+    },
+}
+console.log(quadrado.lados);
+console.log(quadrado.area(5));
+console.log(quadrado.perimetro(10));
+
+// Versão mais atualizada:
+// pode tirar o dois pontos funtion ou o lado escrito dentro dos parênteses: olha o exemplo abaixo : function 
+var quadrado = {
+    lados: 4,
+    area(lado) {
+        return lado * lado;
+    },
+    perimetro(lado) {
+        return this.lados * lado;
+    },
+    cinco() {
+        return 5;
+    }
+}
+console.log(quadrado.lados);
+console.log(quadrado.area(15));
+console.log(quadrado.perimetro(100));
