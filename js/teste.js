@@ -707,3 +707,5 @@ var quadrado = {
 console.log(quadrado.lados);
 console.log(quadrado.area(15));
 console.log(quadrado.perimetro(100));
+
+// typeof diz que tipo que é, se é string ou número
