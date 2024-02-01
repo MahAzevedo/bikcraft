@@ -738,3 +738,27 @@ var menu = {
     }
 }
 console.log(menu.metadeHeight())
+
+var menu = {
+    width: 800,
+}
+console.log(menu.hasOwnProperty('width'));
+
+// Exercícios:  1/4
+
+// 1/4: Crie um objeto com os seus dados pessoais: Deve possui pelo menos duas propriedades nome e sobrenome
+
+var informacoes = {
+    nome: 'Stella',
+    sobrenome: 'Artois',
+};
+
+// 2/4: Crie um método no objeto anterior, que mostre o seu nome completo
+
+var informacoes = {
+    nome: 'Stella',
+    sobrenome: 'Artois',
+    fullName() {
+        return nome + ' ' + sobrenome;
+    }
+};
