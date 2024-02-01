@@ -726,4 +726,15 @@ menu.esconder = function () {
 
 var bg = menu.backgroundColor;
 
-// teste
+// this: 
+
+var height = 100;
+var menu = {
+    width: 800,
+    height: 50,
+    backgroundColor: '#84E',
+    metadeHeight() {
+        return this.height / 2;
+    }
+}
+console.log(menu.metadeHeight())
