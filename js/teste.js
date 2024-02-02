@@ -802,3 +802,30 @@ var cachorro = {
 }
 console.log(cachorro.latir('homem'));
 
+
+
+// -------------------
+
+
+
+// OBJETO:  Tudo é objeto:
+// Strings, numeros, boolen, objetos e mais, possuem propriedades (variáveis) e métodos (funções). Por isso são objetos.
+
+// Uma string herda propriedades e métodos do construtor String()
+
+// construtor é uma função que se chama string e ela que constrói todas as strings quando vc cria (É assunto para a parte mais avançada)
+
+var nome = 'Madi';
+
+nome.length; // 4; é o tamanho, contatos 1 a 1
+// se não usa parênteses() então quer dizer que não é método(função) é propriedade(variável) 
+// vê abaixo que nome.lenght NÃO TEM PARENTESES() PQ É UMA PROPRIEDADE(VARIAVEL)
+console.log(nome.length);
+
+nome.charAt(1); // a; posição da letra começando em 0
+
+nome.replace('di', 'Az')
+console.log(nome.replace('di', 'Az'));
+
+nome;
+console.log(nome);
