@@ -746,11 +746,13 @@ console.log(menu.hasOwnProperty('width'));
 
 // Exercícios:  1/4
 
-// 1/4: Crie um objeto com os seus dados pessoais: Deve possui pelo menos duas propriedades nome e sobrenome
+// 1/4: Crie um objeto com os seus dados pessoais: Deve possuir pelo menos duas propriedades nome e sobrenome
 
 var informacoes = {
     nome: 'Stella',
     sobrenome: 'Artois',
+    idade: 8,
+    cidade: 'Niterói',
 };
 
 // 2/4: Crie um método no objeto anterior, que mostre o seu nome completo
@@ -758,7 +760,45 @@ var informacoes = {
 var informacoes = {
     nome: 'Stella',
     sobrenome: 'Artois',
+    idade: 8,
+    cidade: 'Niterói',
+    nomeCompleto: 'Stella Artois',
     fullName() {
-        return nome + ' ' + sobrenome;
+        return this.nomeCompleto;
     }
 };
+// ou dessa maneira abaixo q é melhor:
+
+informacoes.nomeCompleto = function () {
+    return `${this.nome} ${this.sobrenome}`;
+}
+
+// 3/4: Modifique o valor da propriedade preco para 3000
+
+var carro = {
+    preco: 1000,
+    portas: 4,
+    marca: 'Audi',
+    carroAudi() {
+        return this.preco;
+    }
+}
+
+carro.preco = 3000;
+
+// 4/4: Crie um objeto de um cachorro que represente um labrador, preto com 10 anos, que late ao ver um homem: 
+
+var cachorro = {
+    raca: 'labrador',
+    cor: 'preto',
+    idade: 10,
+    latir(pessoa) {
+        if (pessoa === 'homem') {
+            return 'Latir';
+        } else {
+            return 'Não latir';
+        }
+    }
+}
+console.log(cachorro.latir('homem'));
+
