@@ -1,5 +1,4 @@
 
-
 var nome = "Mádjan";
 console.log("Mádjan")
 
@@ -829,3 +828,97 @@ console.log(nome.replace('di', 'Az'));
 
 nome;
 console.log(nome);
+
+var nomeMinusculo = nome.toLocaleLowerCase();
+var nomeMinusculo = console.log(nome.toLocaleUpperCase());
+
+
+// Aqui no caso de NÚMEROS:
+
+var altura = 1.50;
+
+altura.toString(); //1.5; ele é o valor que é
+altura.toFixed(); // 2; vai aredondar o valor
+
+// e da pra fazer direto
+11.8.toString();
+11.8.toFixed();
+11.3.toFixed(); //arredondou pra baixo
+// coloquei no console pra ver direto na tela
+console.log(11.8.toString());
+console.log(11.8.toFixed());
+console.log(11.3.toFixed());
+
+
+// Não existe método(função) começando com um número, segue a mesma regra de definição de variáveis(propriedades)
+
+function areaQuadrado(lado) {
+    return lado * lado;
+}
+// vai aparecer exatamente como tá aqui, como tá aqui essas 3 linhas, o string() é muito estrito
+console.log(areaQuadrado.toString());
+
+areaQuadrado.length; // 1; retorna o tamanho
+
+
+// Elementos do DOM:
+// document -> é html, é objeto
+// querySelector -> é um método(função) desse objeto
+// ('') -> o que está aqui dentro será um ARGUMENTO
+// Argumento -> é um SELETOR CSS
+// Seletor CSS -> é qualquer seletor CSS
+// é o Seletor que a gente seleciona
+var btn = document.querySelector('.btn');
+
+// .btn { // -> esse .btn é um seletor
+//     background-color: #000;
+// }  // é o seletor que a gente usa
+
+var btn = document.querySelector('.btn');
+
+btn.addEventListener('click', function () { }); // undefined
+
+btn.classList.add('ativo'); // add é pra adiconar, então tá adicionando uma classe nova
+btn.classList.add('azul');
+console.log(btn.classList.add('azul'));
+btn.innerText; // Clique aqui, vai retornar exatamente o texto que tá dentro.
+console.log(btn.innerText)
+btn.addEventListener('click', function () {
+    console.log('clicou, cliquei e FUNCIONOU');
+})
+// essa function(){} é função de callBack
+
+// **** Praticamente todos os efeitos com JS são feitos utilizando propriedades(variáveis) e métodos(funções) de objetos de DOM.
+
+// O objetivo não é gravar, é saber utilizar os métodos(funções), saber como procurar, saber que para interagir com métodos e elementos do DOM vc vai interagir atravéz de métodos e propriedades.
+
+// exemplo: pra procurar um botao vc vai e procura: propriedade do botao pra esconder ele.
+// Aí vc vai ver se existe ou se não existe ou se tem como criar um botao vc mesmo.
+
+// Esse é na verdade o trabalho do Front-End quando vc tá iniciando, é ir descobrindo métodos e propriedades que vc vai precisar pra fazer na tela.
+
+//por exemplo: tem um método pra remover classe, método pra mudar o estilo do botao e por aí vai...
+// Então é isso, saber qual método(função) eu preciso pra fazer tal coisa...
+
+// ****** EXERCICIOS - FUNÇÕES ******
+// 1/3: Exercício: Funções;
+
+// 1/3: nomeie 3 propriedades ou métodos de strings
+/*
+   var let const, carro, tenis, sapato
+   addEventListener(), querySeletor(), toLowerCase()
+*/
+
+// 2/3: nomeie 5 propriedades ou métodos de elementos do DOM
+/*
+
+métodos: toFixed(), toString(), toUpperCase(), chartAt(), replace()
+
+propriedades: .lenght; .document, carro, caderno, nome
+
+*/
+
+// 3/3: busque na web um objeto (método) capaz de interagir com o clipboard, 
+// clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
+
+var btn = document.querySelector()
