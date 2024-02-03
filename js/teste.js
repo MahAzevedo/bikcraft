@@ -922,3 +922,5 @@ propriedades: .lenght; .document, carro, caderno, nome
 // clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
 
 var btn = document.querySelector()
+
+// teste
