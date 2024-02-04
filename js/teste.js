@@ -928,3 +928,4 @@ function clipboardCopiado() {
 }
 console.log(clipboardCopiado());
 
+// teste
