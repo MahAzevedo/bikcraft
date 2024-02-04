@@ -918,9 +918,13 @@ propriedades: .lenght; .document, carro, caderno, nome
 
 */
 
-// 3/3: busque na web um objeto (método) capaz de interagir com o clipboard, 
+// 3/3: busque na web um objeto (método) capaz de interagir com o clipboard,
 // clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
 
-var btn = document.querySelector()
+var btn = document.querySelectorById('.btn');
 
-// teste
+function clipboardCopiado() {
+    btn.addEventListener('click');
+}
+console.log(clipboardCopiado());
+
