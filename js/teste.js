@@ -900,17 +900,28 @@ btn.addEventListener('click', function () {
 //por exemplo: tem um método pra remover classe, método pra mudar o estilo do botao e por aí vai...
 // Então é isso, saber qual método(função) eu preciso pra fazer tal coisa...
 
+
+
+// ****************************
+
+
+
+
+
+
+
+
 // ****** EXERCICIOS - FUNÇÕES ******
 // 1/3: Exercício: Funções;
 
 // 1/3: nomeie 3 propriedades ou métodos de strings
 /*
-   var let const, carro, tenis, sapato
-   addEventListener(), querySeletor(), toLowerCase()
-*/
+  Propriedades = var nome = 'Madi';
 
-// 2/3: nomeie 5 propriedades ou métodos de elementos do DOM
-/*
+  Método = fixed, charAt, split, slice, length
+
+*/
+/* Sao propriedades e métodos de STRING:
 
 métodos: toFixed(), toString(), toUpperCase(), chartAt(), replace()
 
@@ -918,14 +929,41 @@ propriedades: .lenght; .document, carro, caderno, nome
 
 */
 
+// 2/3: nomeie 5 propriedades ou métodos de elementos do DOM
+
+// Aqui sao propriedades e métodos de ELEMENTOS DO DOM:
+
+var btn = document.querySelector('.btn');
+// Esses aqui são 5 médotos do DOM:
+//id
+//innerHTML
+//classList
+//appendChild
+//addEventListener
+//outerHTML
+console.log(btn)
+
+
+
 // 3/3: busque na web um objeto (método) capaz de interagir com o clipboard,
 // clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
 
-var btn = document.querySelectorById('.btn');
+// var btn = document.querySelectorById('.btn');
 
-function clipboardCopiado() {
-    btn.addEventListener('click');
+// function clipboardTexto() {
+//     btn.addEventListener('.btn');
+// }
+// console.log(clipboardTexto());
+
+function clipboardTexto() {
+    var copiar = document.querySelector('.btn')
+    copiar.selected();
+    copiar.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copiar.value);
+
+    alert('Copiado' + createTypeAnnotationBasedOnTypeof.value);
 }
-console.log(clipboardCopiado());
 
-// teste
+console.log(clipboardTexto)
+// fiz a busca, achei no w3schools como fazer esse clipboard.
+// O exercício era esse, fazer a pesquisa.
