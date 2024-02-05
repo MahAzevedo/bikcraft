@@ -1008,3 +1008,5 @@ while (i < 100) {
     console.log(i);
     i = i + 5; // aqui ficou loop de 5 em 5
 }
+
+// teste
