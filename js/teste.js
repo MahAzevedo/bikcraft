@@ -991,9 +991,20 @@ for (var numero = 0; numero <= 10; numero++) {
     console.log(numero)
 }
 
+for (var i = 0; i < 10; i++) {
+    console.log(i)
+};    // i = index, indice, é só o número da variável, pode ser n também
+
 // While Loop:
 
 var i = 0;
 while (i < 10) {
+    console.log(i);
+    i++
+}
 
+var i = 0;
+while (i < 100) {
+    console.log(i);
+    i = i + 5; // aqui ficou loop de 5 em 5
 }
