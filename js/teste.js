@@ -967,3 +967,10 @@ function clipboardTexto() {
 console.log(clipboardTexto)
 // fiz a busca, achei no w3schools como fazer esse clipboard.
 // O exercício era esse, fazer a pesquisa.
+
+
+// **********************************
+
+
+// Arrays e Loops:
+
