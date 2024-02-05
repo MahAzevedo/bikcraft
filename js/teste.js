@@ -974,3 +974,26 @@ console.log(clipboardTexto)
 
 // Arrays e Loops:
 
+var videoGames = ['Swith', 'PS4', 'XBOX'];
+
+videoGames[0];
+videoGames[1];
+videoGames[2];
+console.log(videoGames[1])
+
+// For Loop:
+
+for (var numero = 0; numero < 10; numero++) {
+    console.log(numero);
+}
+
+for (var numero = 0; numero <= 10; numero++) {
+    console.log(numero)
+}
+
+// While Loop:
+
+var i = 0;
+while (i < 10) {
+
+}
