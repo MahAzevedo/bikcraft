@@ -1004,9 +1004,45 @@ while (i < 10) {
 }
 
 var i = 0;
-while (i < 100) {
+while (i < 10) {
     console.log(i);
     i = i + 5; // aqui ficou loop de 5 em 5
 }
 
-// teste
+
+// ***********************
+
+
+// Array e Loops 2: for loop;
+
+var videoGames = ['Switch', 'PS4', 'XBOX', '3DS'];
+
+for (var item = 0; item < videoGames.length; item++) {
+    console.log(videoGames[item])
+}
+
+for (var i = 0; i < 4; i++) {
+    console.log(videoGames[i])
+}
+
+var caderno = ['folha', 'divisoria', 'papel', 'fichario'];
+
+for (var i = 0; i < caderno.length; i++) {
+    console.log(caderno[i])
+}
+
+// Array e Loops 2: Break;
+
+var videoGames = ['Switch', 'PS4', 'XBOX', '3DS'];
+for (var i = 0; i < videoGames.length; i++) {
+    console.log(videoGames[i])
+    if (videoGames[i] === 'PS4') {
+        break;
+    }
+}
+
+var brigadeiro = ['chocolate', 'leite condensado', 'creme de leite'];
+
+for (var i = 0; i < brigadeiro.length; i++) {
+    console.log(brigadeiro[i])
+}
