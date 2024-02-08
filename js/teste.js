@@ -1049,3 +1049,34 @@ for (var i = 0; i < brigadeiro.length; i++) {
 
 
 // Arrays e Loops: for Each;
+
+var videoGames = ['Switch', 'PS4', 'XBOX', '3DS'];
+videoGames.forEach(function (item) {
+    console.log(item)
+});
+
+videoGames.forEach(function () {
+    console.log('oi')
+})
+
+var doce = ['acucar', 'chocolate', 'bala', 'refrigerante']
+
+doce.forEach(function (item) {
+    console.log(item)
+});
+
+var doce = ['acucar', 'chocolate', 'bala', 'refrigerante']
+
+doce.forEach(function (argumentoQualquer) {
+    console.log(argumentoQualquer)
+});
+
+var frutas = ['banana', 'uva', 'morango', 'ameixa', 'pera', 'maçã', 'tomate'];
+
+frutas.forEach(function (fruta, index) {
+    console.log(fruta, index)
+});
+
+frutas.forEach(function (fruta, index, fdskfhksd) {
+    console.log(fruta, index, fdskfhksd)
+});
