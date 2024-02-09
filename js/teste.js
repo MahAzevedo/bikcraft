@@ -1080,3 +1080,29 @@ frutas.forEach(function (fruta, index) {
 frutas.forEach(function (fruta, index, fdskfhksd) {
     console.log(fruta, index, fdskfhksd)
 });
+
+// Exercícios:
+
+// 1/4: Crie uma array com os anos que o Brasil ganhou a copa 1959, 1962, 1970, 1994, 2002
+
+var brasilCampeao = [1959, 1962, 1970, 1994, 2002];
+
+
+// 2/4: Interaja com a array utilizando um loop, para mostrar no console a seguinte mensagem, `O brasil ganhou a copa de ${ano}`
+
+for (var i = 0; i < brasilCampeao.length; i++) {
+    console.log('O brasil ganhou a copa de u' + brasilCampeao[i])
+}
+
+// 3/4: Interaja com um loop nas frutas abaixo e pare ao chegar em Pera
+var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância'];
+
+for (var i = 0; i < frutas.length; i++) {
+    console.log(frutas[i]); {
+        if (frutas === 'Pera') {
+            break;
+        }
+    }
+}
+
+// 4/4: Coloque a última fruta da array acima em uma variável, sem remover a mesma da array.
