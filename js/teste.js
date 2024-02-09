@@ -1099,10 +1099,12 @@ var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância'];
 
 for (var i = 0; i < frutas.length; i++) {
     console.log(frutas[i]); {
-        if (frutas === 'Pera') {
+        if (frutas[i] === 'Pera') {
             break;
         }
     }
 }
 
 // 4/4: Coloque a última fruta da array acima em uma variável, sem remover a mesma da array.
+
+// teste
