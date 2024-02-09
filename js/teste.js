@@ -1107,4 +1107,6 @@ for (var i = 0; i < frutas.length; i++) {
 
 // 4/4: Coloque a última fruta da array acima em uma variável, sem remover a mesma da array.
 
-var ultimaFruta
+var ultimaFruta = frutas[frutas.length - 1];
+
+// essa é a forma mais correta de puxar o ultimo item
