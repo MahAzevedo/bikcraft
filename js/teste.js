@@ -1110,3 +1110,13 @@ for (var i = 0; i < frutas.length; i++) {
 var ultimaFruta = frutas[frutas.length - 1];
 
 // essa é a forma mais correta de puxar o ultimo item
+
+
+// *******************************
+
+
+// Atribuição e ternário;
+
+var numero = 20;
+numero += 10;
+console.log(numero);
