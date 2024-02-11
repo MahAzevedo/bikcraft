@@ -1120,3 +1120,39 @@ var ultimaFruta = frutas[frutas.length - 1];
 var numero = 20;
 numero += 10;
 console.log(numero);
+
+var numero = 20;
+var numero2 = 50;
+
+numero /= numero2;
+console.log(numero)
+
+var numero = 20;
+var numero2 = 50;
+
+numero *= numero2;
+console.log(numero)
+
+var numero = 20;
+var numero2 = 50;
+
+numero **= numero2;
+console.log(numero)
+
+var numero = 20;
+var numero2 = 50;
+
+numero -= numero2;
+console.log(numero)
+
+numero %= numero2;
+console.log(numero)
+
+// Operador Ternário:
+
+var idade = 19;
+var podeBeber = (idade <= 18) ? 'Pode beber' : 'Não pode beber';
+
+console.log(podeBeber)
+
+// teste
