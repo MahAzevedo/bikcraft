@@ -1,4 +1,5 @@
 
+
 var nome = "Mádjan";
 console.log("Mádjan")
 
@@ -1151,8 +1152,24 @@ console.log(numero)
 // Operador Ternário:
 
 var idade = 19;
-var podeBeber = (idade <= 18) ? 'Pode beber' : 'Não pode beber';
+var podeBeber = (idade >= 18) ? 'Pode beber' : 'Não pode beber';
 
 console.log(podeBeber)
 
-// teste ternario
+var idade = 20;
+var podeBeber = (idade >= 18) ? 'Pode beber' : 'Não pode beber';
+console.log(podeBeber);
+
+var idade = 10;
+var podeBeber = (idade >= 18) ? 'Pode beber' : 'Não pode beber';
+console.log(podeBeber);
+
+var uva = 0;
+var sucoUva = (uva >= sucoUva) ? 'É fruta' : 'É suco de uva';
+console.log(sucoUva)
+
+// teste operador ternario
+
+
+
+
