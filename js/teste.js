@@ -1168,8 +1168,4 @@ var uva = 0;
 var sucoUva = (uva >= sucoUva) ? 'É fruta' : 'É suco de uva';
 console.log(sucoUva)
 
-// teste operador ternario
-
-
-
-
+// teste de operador ternário
