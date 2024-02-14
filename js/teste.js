@@ -1169,3 +1169,13 @@ var sucoUva = (uva >= sucoUva) ? 'É fruta' : 'É suco de uva';
 console.log(sucoUva)
 
 // teste de operador ternário
+
+
+// condição ? true : false
+
+var idade = 20;
+
+var podeBeber;
+
+podeBeber = idade >= 18 ? true : false;
+console.log(podeBeber);
