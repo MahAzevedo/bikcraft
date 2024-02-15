@@ -1243,4 +1243,10 @@ console.log(darCredito);
 // }
 
 // (condição) ? '' : '';
-// var = (condição) ? '' : ''; 
+// var = (condição) ? '' : '';
+
+// ********************************
+
+
+// Escopo:
+
