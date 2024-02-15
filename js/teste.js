@@ -1179,3 +1179,46 @@ var podeBeber;
 
 podeBeber = idade >= 18 ? true : false;
 console.log(podeBeber);
+
+
+var idade = 20;
+var naoPossuiDiabetes = true;
+
+naoPossuiDiabetes = (idade >= 20 && naoPossuiDiabetes) ? true : false;
+
+console.log(naoPossuiDiabetes)
+
+podeBeber = (idade >= 18 && naoPossuiDiabetes) ? 'Pode beber' : 'Não pode beber';
+
+console.log(podeBeber) // Pode beber
+
+var possuiFaculdade = true;
+if (possuiFaculdade) console.log('Possui faculdade');
+else console.log('Não possui faculdade');
+
+// ou
+
+if (possuiFaculdade)
+    console.log('Possui faculdade');
+else
+    console.log('Não possui faculdade');
+
+// **************
+
+
+// Exercícios: Atribuição e Ternário;
+
+
+// Some 500 ao valor de scroll abaixo atribuindo o novo valor a scroll
+
+
+var scroll = 1000;
+scroll = scroll + 500;
+console.log(scroll);
+
+// ou 
+
+var scroll = 1000;
+scroll += 500; //aqui, direto com o ternário
+console.log(scroll);
+
