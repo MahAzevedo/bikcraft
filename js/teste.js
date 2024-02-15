@@ -1248,5 +1248,32 @@ console.log(darCredito);
 // ********************************
 
 
-// Escopo:
+// Escopo de função:
 
+// function mostraCarro() {
+//     var carrro = 'Fusca';
+//     console.log(carrro)
+// };
+
+// mostraCarro();
+// console.log(carrro);
+
+// 
+
+var carro = 'Fusca';
+
+function mostrarCarro() {
+    var frase = `Meu carro é um ${carro}`;
+    console.log(frase);
+}
+
+mostrarCarro();
+console.log(carro);
+
+// Escopo de bloco  
+
+if (true) {
+    let mes = 'Fevereiro';
+    console.log(mes)
+}
+console.log(mes)
