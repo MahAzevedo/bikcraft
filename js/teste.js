@@ -1209,7 +1209,7 @@ else
 // Exercícios: Atribuição e Ternário;
 
 
-// Some 500 ao valor de scroll abaixo atribuindo o novo valor a scroll
+// 1/2: Some 500 ao valor de scroll abaixo atribuindo o novo valor a scroll
 
 
 var scroll = 1000;
@@ -1222,3 +1222,25 @@ var scroll = 1000;
 scroll += 500; //aqui, direto com o ternário
 console.log(scroll);
 
+// 2/2: Atribua true para a variável darCredito caso o cliente possua carro e casa. E false caso o contrário.
+
+var possuiCarro = true;
+var possuiCasa = true;
+var darCredito;
+
+darCredito = (possuiCarro && possuiCasa) ? true : false;
+console.log(darCredito);
+
+darCredito = (possuiCarro && possuiCasa) ? 'Dar crédito.' : 'Não dar crédito.';
+console.log(darCredito);
+
+
+
+// if (possuiCasa && possuiCarro) {
+//     console.log('Possui casa e carro, então já possui crédito.');
+// } else {
+//     console.log('Ainda não possui carro e/ou casa, ainda não possui crédito.')
+// }
+
+// (condição) ? '' : '';
+// var = (condição) ? '' : ''; 
