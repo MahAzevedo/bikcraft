@@ -1278,4 +1278,4 @@ if (true) {
 }
 console.log(mes)
 
-// escopo
+// teste de escopo 
