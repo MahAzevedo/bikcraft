@@ -1270,7 +1270,7 @@ function mostrarCarro() {
 mostrarCarro();
 console.log(carro);
 
-// Escopo de bloco  
+let mes = 'Janeiro'
 
 if (true) {
     let mes = 'Fevereiro';
