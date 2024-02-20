@@ -1270,12 +1270,120 @@ function mostrarCarro() {
 mostrarCarro();
 console.log(carro);
 
-let mes = 'Janeiro'
+
+// let mes = 'Fevereiro'; pode ser aqui do lado de fora ou do lado de dentro como está abaixo.
 
 if (true) {
     let mes = 'Fevereiro';
-    console.log(mes)
+    console.log(mes);
 }
-console.log(mes)
+// console.log(mes)
 
-// teste de escopo 
+
+if (false) {
+    var carroca = 'Ferrari';
+    console.log(carroca);
+} //var gera undefinied pq vaza o código
+console.log(carroca)
+
+if (false) {
+    const carro = 'Fusca';
+    console.log(carro);
+}
+console.log(carro)
+
+
+// A partir de agora usaremos: const e let
+// não usaremos mais: var
+
+if (true) {
+    const carroceria = 'Audi';
+    console.log(carroceria);
+}
+
+
+{
+    var carro4 = 'carro4';
+    const carro5 = 'carro5';
+}
+console.log(carro4); // carro4
+//console.log(carro5); // is not definied (pq está dentro da const e dentro da const NÃO VAZA, o outro está dentra da variável, e dentro dela, vaza)
+
+
+// for loop
+// for loop: escrever sempre com: let
+var i = 50;
+for (let i = 0; i < 10; i++) {
+    console.log(`Número ${i}`);
+}
+console.log(i * 10)
+
+// const mes = 'dezembro';
+// mes = 'janeiro';
+// const semana;
+
+const data = {
+    dia: 28,
+    mes: 'Dezembro',
+    ano: 2018,
+}
+data.dia = 29;
+console.log(data.dia)
+// data = 'Janeiro';
+// console.log(data)
+
+
+const semana = 'sexta';
+
+// semana = 'Quinta';
+
+/* Hosting:
+que é quando toda a variavel vai la pra cima no codigo, é declarada la em cima e depois vem seguindo embaixo atribuir o valor
+
+*/
+
+// 1/3: Exercício:
+// Por qual motivo o código abaixo retorna com erros?
+
+{
+    var cor = 'preto';
+    const marca = 'Fiat';
+    let portas = 4;
+    console.log(cor, marca, portas);
+}
+
+// var é a palavra chave pra criar a variavel, que aqui é: cor.
+
+// como é const e let, não vaza, entao nao consigo acessar do lado de fora com o console
+// pq o const não deixa reproduzir fora do escopo, marca nao e definido
+//let tambem nao deixa, portas nao e defined
+
+// ******************
+
+// 2/3: Como corrigir o erro abaixo?
+const dois = 2;
+function somarDois(x) {
+    return x + dois;
+}
+function dividirDois(x) {
+    return x / dois;
+}
+console.log(somarDois(4));
+console.log(dividirDois(6));
+// tira a const de dentro e coloca do lado de fora
+
+
+
+// **************
+
+
+// 3/3: O que fazer para total retornar 500?
+
+var numero = 50;
+
+for (let numero = 0; numero < 10; numero++) {
+    console.log(numero);
+}
+
+const totalll = 10 * numero;
+// console.log(totallll * 50);
