@@ -1385,5 +1385,5 @@ for (let numero = 0; numero < 10; numero++) {
     console.log(numero);
 }
 
-const totalll = 10 * numero;
-// console.log(totallll * 50);
+const totall = 10 * numero;
+console.log(totall);
