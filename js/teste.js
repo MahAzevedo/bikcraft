@@ -1431,4 +1431,50 @@ console.log(document.querySelector('h1'));
 console.log(document.body);
 
 
+
+
+// alert('Dá pra colocar o alert direto pq o window é global, e como tal, se colocar o alert direto ele pega/funciona na tela')
+
 const h1Selecionado = document.querySelector('h1');
+console.log(h1Selecionado)
+
+const h1Classes = h1Selecionado.classList;
+console.log(h1Classes)
+
+h1Selecionado.addEventListener('click', function () {
+    console.log('Clicou em ', h1Selecionado.innerText)
+})
+
+// a mesma coisa que em cima, mas a função fiz do lado de fora, que é melh as funções do código pra separar direito/melhor.
+function callbackh1() {
+    console.log('Clicou em ', h1Selecionado.innerText);
+}
+
+h1Selecionado.addEventListener('click', callbackh1);
+
+// 1/4: Retorne o url da página atual utilizando o objeto window
+
+const hrefDaPagina = window.location.href;
+console.log(hrefDaPagina)
+
+/*
+como é window, se tirar ele dá frente vai funcionar do mesmo jeito.
+
+const hrefDaPagina = location.href;
+console.log(hrefDaPagina)
+*/
+
+// 2/4: Seleciona o primeiro elemento da página que possua a classe ativo
+
+const elementoAtivo = document.querySelector('.ativo');
+console.log(elementoAtivo);
+
+// 3/4: Retorne a linguagem do navegador
+
+const linguagemNavigator = window.navigator.language;
+console.log(linguagemNavigator);
+
+// 4/4: Retorne a largura da janela 
+
+const larguraJanela = window.innerWidth;
+console.log(larguraJanela);
