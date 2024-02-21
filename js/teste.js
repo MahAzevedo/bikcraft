@@ -1387,3 +1387,10 @@ for (let numero = 0; numero < 10; numero++) {
 
 const totall = 10 * numero;
 console.log(totall);
+
+// *************
+
+// DOM - Document Object Model
+// É uma interface que representa documentos HTML e XML através de objetos. Com ela é possível manipular a estrutura, estilo e conteúdo destes documentos.
+
+console.log(window);
