@@ -1390,7 +1390,12 @@ console.log(totall);
 
 // *************
 
+
+// DOM
+
 // DOM - Document Object Model
 // É uma interface que representa documentos HTML e XML através de objetos. Com ela é possível manipular a estrutura, estilo e conteúdo destes documentos.
 
 console.log(window);
+
+window.alert()
