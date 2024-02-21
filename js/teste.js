@@ -1398,4 +1398,37 @@ console.log(totall);
 
 console.log(window);
 
-window.alert()
+// window.alert()
+
+// window.location.href
+// 'http://127.0.0.1:5502/index.html'
+
+// esse location ajuda verificar se a pessoa tá na página certa.
+
+const href = window.location.href;
+console.log(href);
+
+if (href === 'http://127.0.0.1:5502/index.html') {
+    console.log('É igual: if(href === http://127.0.0.1:5502/index.html) { console.log(É igual) }')
+}
+
+if (href === 'http://127.0.0.1:5502/index.html') {
+    console.log('É igual')
+}
+
+const maçã = 'maçã';
+if (maçã === 'maca') {
+    console.log('É maçã!')
+} else {
+    console.log('Não é maca, se escreve maçã!')
+}
+
+// Como faz pra selecionar uma tag, um elemento? Dessa maneira abaixo:
+
+document.querySelector('h1');
+document.body;
+console.log(document.querySelector('h1'));
+console.log(document.body);
+
+
+const h1Selecionado = document.querySelector('h1');
